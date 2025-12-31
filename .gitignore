@@ -1,0 +1,39 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary check/analysis scripts
+check_*.py
+show_*.py
+generate_*.py
+
+# Large data files
+*.json
+*.csv
+*.xlsx
+*.png
+*.zip
+
+# Log files
+*.txt
+*.log
+
