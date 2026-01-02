@@ -586,3 +586,4 @@ outcome_normalized (정규화된 모든 데이터)
 
 
 
+

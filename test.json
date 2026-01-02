@@ -1,0 +1,55 @@
+[
+  {
+    "conditions": [
+      { "unit": null, "value": "male", "feature": "GENDER", "operator": "=" },
+      { "unit": null, "value": "female", "feature": "GENDER", "operator": "=" },
+      { "unit": "years", "value": 50, "feature": "AGE", "operator": ">=" }
+    ],
+    "criterion_id": 1,
+    "original_text": "Patient is male or female and at least 50 years of age or older",
+    "logic_operator": "AND"
+  },
+  {
+    "conditions": [
+      {
+        "unit": null,
+        "value": "postmenopausal female",
+        "feature": "GENDER",
+        "operator": "="
+      },
+      {
+        "unit": null,
+        "value": "surgically sterilized female",
+        "feature": "CONTRACEPTION",
+        "operator": "="
+      }
+    ],
+    "criterion_id": 2,
+    "original_text": "Female patients must be postmenopausal or surgically sterilized",
+    "logic_operator": "OR"
+  },
+  {
+    "unit": null,
+    "value": "clinical diagnosis of AD",
+    "feature": "CONDITION",
+    "operator": "=",
+    "criterion_id": 3,
+    "original_text": "Clinical diagnosis of AD"
+  },
+  {
+    "unit": null,
+    "value": "good health (except AD)",
+    "feature": "CONDITION",
+    "operator": "=",
+    "criterion_id": 4,
+    "original_text": "Patient must be in good health except for AD diagnosis"
+  },
+  {
+    "unit": null,
+    "value": "available informant/caregiver",
+    "feature": "OTHER",
+    "operator": "=",
+    "criterion_id": 5,
+    "original_text": "Patient must have informant/caregiver who can monitor and assist patient during the study"
+  }
+]

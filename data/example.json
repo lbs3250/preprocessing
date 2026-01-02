@@ -1,0 +1,38 @@
+[
+  {
+    "unit": null,
+    "value": "diagnosis of probable Alzheimer's Disease using NINCDS/ADRDA criteria",
+    "feature": "patient",
+    "operator": "=",
+    "confidence": 0.95,
+    "criterion_id": 1,
+    "original_text": "Diagnosis of probable Alzheimer's Disease using NINCDS/ADRDA criteria"
+  },
+  {
+    "unit": null,
+    "value": 13,
+    "feature": "MMSE score",
+    "operator": ">=",
+    "confidence": 0.95,
+    "criterion_id": 2,
+    "original_text": "Standardized MMSE Score of 13 to 24 points (inclusive)"
+  },
+  {
+    "unit": null,
+    "value": 24,
+    "feature": "MMSE score",
+    "operator": "<=",
+    "confidence": 0.95,
+    "criterion_id": 3,
+    "original_text": "Standardized MMSE Score of 13 to 24 points (inclusive)"
+  },
+  {
+    "unit": null,
+    "value": 4,
+    "feature": "Modified Hachinski score",
+    "operator": "<=",
+    "confidence": 0.95,
+    "criterion_id": 4,
+    "original_text": "Modified Hachinski score equal or less than 4"
+  }
+]

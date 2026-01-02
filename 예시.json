@@ -1,0 +1,110 @@
+[
+  {
+    "unit": "kg/m²",
+    "value": 39,
+    "feature": "Body Mass Index",
+    "operator": "<=",
+    "confidence": 0.95,
+    "criterion_id": 1,
+    "original_text": "Body Mass Index <=39 kg/m^2"
+  },
+  {
+    "unit": null,
+    "value": "clinically significant abnormality",
+    "feature": "electrocardiogram",
+    "operator": "!=",
+    "confidence": 0.95,
+    "criterion_id": 2,
+    "original_text": "No clinically significant abnormality on electrocardiogram"
+  },
+  {
+    "unit": null,
+    "value": "postmenopausal or surgically sterilized",
+    "feature": "female participant",
+    "operator": "=",
+    "confidence": 0.95,
+    "criterion_id": 3,
+    "original_text": "Female participant must be postmenopausal or surgically sterilized"
+  },
+  {
+    "unit": null,
+    "value": "agree to use condom with spermicide or abstain from sexual intercourse (during trial and 3 months post-medication)",
+    "feature": "non-vasectomized men",
+    "operator": "=",
+    "confidence": 0.9,
+    "criterion_id": 4,
+    "original_text": "Non-vasectomized men must agree to use a condom with spermicide or abstain from sexual intercourse, during the trial and for 3 months after stopping the medication"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 30,
+    "feature": "eGFR",
+    "operator": "<",
+    "confidence": 0.95,
+    "criterion_id": 5,
+    "original_text": "severely decreased eGFR, defined as <30 mL/min/1.73m^2"
+  },
+  {
+    "unit": null,
+    "value": "on dialysis",
+    "feature": "dialysis",
+    "operator": "!=",
+    "confidence": 0.95,
+    "criterion_id": 6,
+    "original_text": "participant is not on dialysis"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 30,
+    "feature": "eGFR",
+    "operator": ">=",
+    "confidence": 0.95,
+    "criterion_id": 7,
+    "original_text": "moderately decreased eGFR, defined as >=30 mL/min/1.73m^2"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 60,
+    "feature": "eGFR",
+    "operator": "<",
+    "confidence": 0.95,
+    "criterion_id": 8,
+    "original_text": "moderately decreased eGFR, defined as <60 mL/min/1.73m^2"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 60,
+    "feature": "eGFR",
+    "operator": ">=",
+    "confidence": 0.95,
+    "criterion_id": 9,
+    "original_text": "mildly decreased eGFR, defined as >=60 mL/min/1.73m^2"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 80,
+    "feature": "eGFR",
+    "operator": "<",
+    "confidence": 0.95,
+    "criterion_id": 10,
+    "original_text": "mildly decreased eGFR, defined as <80 mL/min/1.73m^2"
+  },
+  {
+    "unit": null,
+    "value": "stable",
+    "feature": "baseline health",
+    "operator": "=",
+    "confidence": 0.95,
+    "criterion_id": 11,
+    "original_text": "Stable baseline health based on medical history, physical examination, vital signs, and laboratory tests"
+  },
+  {
+    "unit": "mL/min/1.73m²",
+    "value": 80,
+    "feature": "eGFR",
+    "operator": ">=",
+    "confidence": 0.95,
+    "criterion_id": 12,
+    "original_text": "eGFR >=80 mL/min/1.73m^2"
+  }
+]

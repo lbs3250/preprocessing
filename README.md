@@ -5,16 +5,19 @@ LLM 기반 임상시험 데이터 전처리 및 검증 시스템
 ## 주요 기능
 
 ### 1. Outcome 데이터 처리
+
 - LLM 기반 Outcome 전처리
 - 다중 검증 (Multi-run validation) 및 Majority Voting
 - 일관성 점수 및 신뢰도 기반 필터링
 
 ### 2. Inclusion/Exclusion Criteria 처리
+
 - Eligibility Criteria 수집
 - LLM 기반 구조화 (Feature-Operator-Value 패턴)
 - 범위 조건 자동 분리 처리
 
 ### 3. 검증 시스템
+
 - 다중 검증 (기본 3회)
 - Majority Voting
 - 일관성 점수 계산
@@ -99,12 +102,14 @@ python llm/llm_validate_inclusion_exclusion.py 999999 3 20
 ## 통계
 
 ### Outcome 처리 결과
+
 - 전처리 시도: 9,030개
 - 전처리 성공: 8,912개 (98.69%)
 - VERIFIED: 8,414개 (94.41%)
 - 자동 수용 가능: 7,382개 (82.83%)
 
 ### Inclusion/Exclusion 처리 결과
+
 - 전처리 성공: 1,270개 (96.21%)
 - 평균 Inclusion Criteria: 10.8개
 - 평균 Exclusion Criteria: 15.6개
@@ -119,4 +124,3 @@ python llm/llm_validate_inclusion_exclusion.py 999999 3 20
 ## 라이선스
 
 MIT
-

@@ -52,6 +52,7 @@ git push -u origin main
 ## 4. 현재 커밋된 파일
 
 다음 파일들이 커밋되었습니다:
+
 - LLM 전처리 및 검증 스크립트
 - 데이터베이스 스키마 (SQL)
 - 문서 (docs/)
@@ -66,4 +67,3 @@ git push -u origin main
 - 대용량 데이터 파일 (`data/raw.json`, `data/LLM_DATA.csv`)
 - 임시 스크립트 (`check_*.py`, `show_*.py`)
 - 로그 파일 (`*.txt`, `*.log`)
-
